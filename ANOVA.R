@@ -87,4 +87,5 @@ round(
 # Análise descritiva dos dados
 describeBy(dados_f$peso, group = dados_f$unidade)
 
+#adicionar gráfico
 
