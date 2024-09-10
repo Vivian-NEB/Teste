@@ -29,6 +29,7 @@ View(dados) # visualização dos dados
 str(dados) # visualização da estrutura dos dados
 dados_f <- haven::as_factor(dados) # convertendo variáveis com rótulos em fatores 
 str(dados_f) # visualização da estrutura dos dados novamente    
+names(dados_f)
 
 # Verificando os pressupostos
 # Normalidade dos dados
